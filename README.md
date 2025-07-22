@@ -15,14 +15,14 @@ This project focuses on analyzing employee attrition to uncover the key factors 
 
 ---
 
-## Step 1: Data Cleaning & Preprocessing
+## 1: Data Cleaning & Preprocessing
 - No missing values
 - Converted categorical variables (e.g. JobRole, Department, Attrition) into factors
 - Ensured data consistency for analysis and modeling
 
 ---
 
-## Step 2: Exploratory Data Analysis (EDA)
+## 2: Exploratory Data Analysis (EDA)
 Key visual insights revealed:
 - Age Distribution: Most employees are aged 30–50
 - Attrition vs. Monthly Income: Lower-income employees are more likely to leave
@@ -32,7 +32,7 @@ Key visual insights revealed:
 
 ---
 
-## Step 3: Statistical Testing
+## 3: Statistical Testing
 - Chi-Square Test (Job Role vs. Attrition):  
   Significant (p = 2.75e-15) – certain job roles have higher attrition
 - T-Test (Monthly Income vs. Attrition):  
@@ -40,13 +40,13 @@ Key visual insights revealed:
 
 ---
 
-## Step 4: Correlation Analysis
+## 4: Correlation Analysis
 - Moderate positive correlation between Monthly Income and Job Level
 - Weak correlations among other variables like Age, Total Working Years, etc.
 
 ---
 
-## Step 5: Predictive Modeling — Logistic Regression
+## 5: Predictive Modeling — Logistic Regression
 Model Goal: Predict the likelihood of an employee leaving (Attrition)
 
 Features used:
@@ -64,7 +64,7 @@ Key Outcomes:
 
 ---
 
-## Step 6: Model Evaluation
+## 6: Model Evaluation
 - Evaluated using Accuracy, Precision, Recall, and ROC AUC
 - Model performed reasonably but can be improved with:
   - Additional features
@@ -100,7 +100,7 @@ Key Outcomes:
 ---
 
 ## Contributions
-Project authored by chris-asianzu.  
+Project authored by Chris Benjamin Asianzu (chris-asianzu).  
 Contributions, suggestions, and collaborations are welcome via pull requests or issues.
 
 ---
